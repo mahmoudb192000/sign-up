@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Sign Up</title>
+     <link rel="stylesheet" href="css/index.css">
+   </head>
+   <body>
+      <button onClick="showform()"  id="bs1"> Enter </button>
+      <button onClick="hiform()"  id="bh1"> Exit </button>
+      <form id="fo1" method="post" action="#">
+         <label>User Name</label>
+         <input type="text" placeholder="User name" class="in1" id="in1" name="in1">
+         <div id="se1" onclick="he1()">The number of characters should be from 10 to 20 characters. Click to exit</div>
+         <label>Email</label>
+         <input type="email" placeholder="Email" class="in1" id="in2" name="in2">
+         <div id="se2" onclick="he2()">This is not an email format. Click to exit </div>
+         <label>Password</label>
+         <input type="Password" placeholder="Password" class="in1" id="in3" name="in3">
+         <div id="se3" onclick="he3()">Password should be from 10 to 15. Click to exit </div>
+         <button>
+         Complet
+         </button>
+      </form>
+      <script src="js/jquery-3.5.1.slim.js"></script>
+      <script src="js/index.js"></script>
+   </body>
+</html>
